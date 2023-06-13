@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote -->
+  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+  <remote name="Simon1511" fetch="https://github.com/Simon1511" />
+  
+  <!-- Device -->
+  <project path="device/samsung/a52sxq" remote="Simon1511" name="android_device_samsung_a52sxq" revision="lineage-20" />
+  <project path="device/samsung/sm7325-common" remote="Simon1511" name="android_device_samsung_sm7325-common" revision="lineage-20" />
+  
+  <!-- Kernel -->
+  <project path="kernel/samsung/sm7325" remote="Simon1511" name="android_kernel_samsung_sm7325" revision="lineage-20" />
+  
+  <!-- VendrosTrees -->
+  <project path="vendor/samsung/a52sxq" remote="Simon1511" name="android_vendor_samsung_a52sxq" revision="lineage-20" />
+  <project path="vendor/samsung/sm7325-common" remote="Simon1511" name="android_vendor_samsung_sm7325-common" revision="lineage-20" />
+
+  <!-- Hardware -->
+  <project path="hardware/samsung" remote="LineageOS" name="android_hardware_samsung" revision="lineage-20" />
+</manifest>
